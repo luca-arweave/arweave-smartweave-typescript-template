@@ -1,0 +1,46 @@
+{
+  "name": "arweave-smartweave-typescript-template",
+  "version": "0.0.1",
+  "description": "A repo for bootstraping a typescript application for arweave and smartweave",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-mocha tests/**/*.test.ts",
+    "coverage": "nyc npm test",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luca-arweave/arweave-smartweave-typescript-template.git"
+  },
+  "keywords": [
+    "SmartWeave",
+    "Arweave",
+    "Testing",
+    "Suite",
+    "Typescrypt"
+  ],
+  "author": "Luca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luca-arweave/arweave-smartweave-typescript-template/issues"
+  },
+  "homepage": "https://github.com/luca-arweave/arweave-smartweave-typescript-template#readme",
+  "devDependencies": {
+    "@types/chai": "latest",
+    "@types/eslint": "latest",
+    "@types/mocha": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "ts-mocha": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "arweave": "latest",
+    "smartweave": "latest"
+  }
+}

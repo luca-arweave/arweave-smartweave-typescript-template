@@ -7,6 +7,7 @@ It uses:
     - SmartWeave latest version
     - Chai and Mocha for testing
     - Instanbul Nyc for checking test coverage
+    - Typedoc for automatically create documentation
 
 ## Bootstrap your project
 
@@ -27,7 +28,8 @@ Follow these steps to bootstrap your project
 - the test folder should contain your tests
 ## Built in Commands
 
+- run `npm build` to build for production. Builds will be put in the dist folder
 - run `npm test` for launching unit tests on your project
 - run `npm run lint` for checking the formatting of your project
 - run `npm run coverage` to check the coverage of your test functions
-- run `npm build` to build for production. Builds will be put in the dist folder
+- run `npm run generate:docs` to build automatically generate the code documentation (in the docs folder)

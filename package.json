@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/luca-arweave/arweave-smartweave-typescript-template#readme",
   "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "latest",
     "@types/chai": "latest",
     "@types/eslint": "latest",
     "@types/mocha": "latest",
